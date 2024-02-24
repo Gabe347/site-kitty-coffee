@@ -1,8 +1,30 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'the bold font';
+    src: url(../fontes/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.otf) format(opentype);
+
+    font-family: 'crunch';
+    src: url(../fontes/Crunch\ Chips.otf) format(opentype);
+
+    font-family: 'sweet cherry';
+    src: url(../fontes/Sweet\ Cherry.otf) format(opentype);
+}
+
+:root{
+    --theboldfont: 'the bold font', Arial, sans-serif;
+    --crunch: 'crunch' Arial, sans-serif;
+    --sweetcherry: 'sweet cherry', fantasy, sans-serif; 
+}
+
+
 *{
     margin: 0px;
 }
+
+/*Configuracoes*/
+
+
 
 
 .cafe{
