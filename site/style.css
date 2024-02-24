@@ -26,11 +26,11 @@
 /*Configuracoes*/
 
 body{
-    background-color: #CBA363;
+    background-color: #7e6d48;
 }
 
 header{
-    background-color: #9C7D4F;
+    background-color: #605C4E;
     padding-bottom: 10px;
     padding-top: 20px;
     text-align: center;
@@ -40,11 +40,11 @@ header > h1{
     border-radius: 10px;
     padding: 20px;
     width: 600px;
-    background-color: rgb(255, 226, 131);
+    background-color: rgb(252, 212, 83);
     letter-spacing: 5px;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    text-shadow: -2px 3px 10px rgba(54, 41, 0, 0.452);
+    text-shadow: -1px 1px 2px rgb(0, 0, 0);
     font-size: 5em;
     font-family: var(--sweetcherry);
     margin: auto;
@@ -63,23 +63,16 @@ header > p{
     padding-top: 30px;
 }
 
-.lista {
-    background-color: white;
-    width: 400px;
-    margin: auto;
-    height: 500px;
-   margin-top: 40px;
-    
-    
-}
 
 .lista > p{
     font-family: 'bubblegum';
-    justify-content: center;
-    padding: 10px;
+    color: #f7d748;
+    text-shadow: 1px 1px 1px black;
+    font-size: 3em;
     text-align: center;
-    padding-top: 70px;
-    margin-bottom: -40px;
+    line-height: 2em;
+    padding-top: 30px;
+    margin-bottom: -20px;
 }
 
 
