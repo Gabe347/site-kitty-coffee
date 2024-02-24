@@ -3,18 +3,19 @@
 @font-face {
     font-family: 'the bold font';
     src: url(../fontes/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.otf) format(opentype);
-
-    font-family: 'crunch';
-    src: url(../fontes/Crunch\ Chips.otf) format(opentype);
-
-    font-family: 'sweet cherry';
-    src: url(../fontes/Sweet\ Cherry.otf) format(opentype);
 }
+
+@font-face {
+    font-family:'bubblegum';
+    src: url(../fontes/Bubblegum.ttf) format(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&display=swap');
 
 :root{
     --theboldfont: 'the bold font', Arial, sans-serif;
-    --crunch: 'crunch' Arial, sans-serif;
     --sweetcherry: 'sweet cherry', fantasy, sans-serif; 
+    --bubblegum: 'bubblegum', Arial;
 }
 
 
@@ -30,17 +31,35 @@ body{
 
 header{
     background-color: #9C7D4F;
-    padding-bottom: 90px;
-    padding-top: 90px;
+    padding-bottom: 10px;
+    padding-top: 20px;
     text-align: center;
 }
 
 header > h1{
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    background-color: rgb(155, 161, 255);
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: rgb(242, 172, 248);
+    text-shadow: 0px 5px 10px rgba(49, 0, 61, 0.795);
+    font-size: 5em;
     font-family: var(--sweetcherry);
+    margin: auto;
+    margin-bottom:;
 }
 
 header > p{
     font-family: var(--theboldfont);
+    font-size: 25px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    width: 500px;
+    height: 60px;
+    margin: auto;
+    padding-top: 30px;
 }
 
 .lista {
@@ -48,13 +67,13 @@ header > p{
     width: 400px;
     margin: auto;
     height: 500px;
-    background-attachment: fixed;
+   margin-top: 40px;
     
     
 }
 
 .lista > p{
-    font-family: var(--crunch);
+    font-family: 'bubblegum';
     justify-content: center;
     padding: 10px;
     text-align: center;
