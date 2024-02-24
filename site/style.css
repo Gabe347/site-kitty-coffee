@@ -26,20 +26,20 @@
 /*Configuracoes*/
 
 body{
-    background-color: #7e6d48;
+    backgrund-color: #7e6d48;
 }
 
 header{
-    background-color: #605C4E;
+    backgroud-color: #605C4E;
     padding-bottom: 10px;
-    padding-top: 20px;
+    paddng-top: 20px;
     text-align: center;
 }
 
 header > h1{
     border-radius: 10px;
     padding: 20px;
-    width: 600px;
+    width: 100%;
     background-color: rgb(252, 212, 83);
     letter-spacing: 5px;
     font-weight: bold;
@@ -48,16 +48,17 @@ header > h1{
     font-size: 5em;
     font-family: var(--sweetcherry);
     margin: auto;
-    margin-bottom:;
+    box-shadow: 0px 2px 100px 2px rgba(0, 0, 0, 0.178);
 }
 
 header > p{
     font-family: var(--theboldfont);
     color: rgb(228, 124, 40);
     font-size: 25px;
-    background-color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    background-color: #494227;
     border-radius: 0 0 10px 10px;
-    width: 500px;
+    width: 700px;
     height: 60px;
     margin: auto;
     padding-top: 30px;
@@ -79,6 +80,13 @@ a{
     text-decoration: none;
     color: #f7d748;
 }
+
+a:hover{
+    text-decoration: underline;
+    font-size: 50px;
+    color: #f7c848;
+}
+
 
 .cafe{
 background-color: black;
