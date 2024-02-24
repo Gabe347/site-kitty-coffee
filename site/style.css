@@ -75,6 +75,10 @@ header > p{
     margin-bottom: -20px;
 }
 
+a{
+    text-decoration: none;
+    color: #f7d748;
+}
 
 .cafe{
 background-color: black;
