@@ -24,7 +24,43 @@
 
 /*Configuracoes*/
 
+body{
+    background-color: #CBA363;
+}
 
+header{
+    background-color: #9C7D4F;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--sweetcherry);
+}
+
+header > p{
+    font-family: var(--theboldfont);
+}
+
+.lista {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    height: 500px;
+    background-attachment: fixed;
+    
+    
+}
+
+.lista > p{
+    font-family: var(--crunch);
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: -40px;
+}
 
 
 .cafe{
@@ -33,14 +69,4 @@ position: relative;
 display: inline-block;
 display: flex;
 margin: -30% 100%;
-}
-
-body{
-    background-color: #CBA363;
-    background-imge: url(../imagens/fundo-marrom.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 96vh;
 }
