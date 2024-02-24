@@ -38,9 +38,9 @@ header > h1{
     background-color: rgb(252, 212, 83);
     letter-spacing: 5px;
     word-spacing: 20px;
-    font-weight: 400;
+    font-weight: bolder;
     color: rgb(255, 255, 255);
-    text-shadow: 4px 0 0 rgb(207, 83, 0), 0 4px 0 rgb(207, 83, 0), -4px 0 0px rgb(207, 83, 0), 0 -4px 0px rgb(207, 83, 0);
+    text-shadow: 12px 0 0 rgb(207, 83, 0), 0 6px 0 rgb(207, 83, 0), -2px 0 0px rgb(207, 83, 0), 0 -6px 0px rgb(207, 83, 0);
     font-size: 7em;
     font-family: 'passion one';
     margin: auto;
@@ -98,5 +98,17 @@ a::before{
 }
 
 footer{
-    
+    margin-top: 40px;
+    background-color: black;]
+    height: 20px;
+    padding: 20px;
+}
+
+footer > p{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: var(--theboldfont);
+    color: rgb(194, 194, 194);
+    margin: 0px;
+    text-align: center;
 }
