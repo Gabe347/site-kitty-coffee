@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+
+
+.cafe{
+background-color: black;
+position: relative;
+display: inline-block;
+display: flex;
+margin: -30% 100%;
+}
+
+body{
+    background-color: #CBA363;
+    background-imge: url(../imagens/fundo-marrom.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 96vh;
+}
