@@ -42,7 +42,8 @@ header > h1{
     width: 100%;
     background-color: rgb(252, 212, 83);
     letter-spacing: 5px;
-    font-weight: bold;
+    word-spacing: 20px;
+    font-weight: 400;
     color: rgb(255, 255, 255);
     text-shadow: -1px 1px 2px rgb(0, 0, 0);
     font-size: 5em;
@@ -64,8 +65,16 @@ header > p{
     padding-top: 30px;
 }
 
+.lista{
+    width: 1100px;
+    height: 640px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.192);
+    border-radius: 70px;
+    margin: auto;
+}
 
 .lista > p{
+    margin-top: 20px;
     font-family: 'bubblegum';
     color: #f7d748;
     text-shadow: 1px 1px 1px black;
